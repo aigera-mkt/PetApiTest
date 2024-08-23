@@ -1,0 +1,9 @@
+Add a new pet {"id":465,"category":{"id":7967,"name":"egergeg"},"name":"Test123","photoUrls":["strissdfvdsng","sdgvdg"],"tags":[{"id":678568,"name":"fjgk"},{"id":235235,"name":"vo8io"}],"status":"pending"}
+200
+{'Date': 'Fri, 23 Aug 2024 06:25:56 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Update pet info {"id":465,"category":{"id":7967,"name":"egergeg"},"name":"Test123","photoUrls":["strissdfvdsng","sdgvdg"],"tags":[{"id":678568,"name":"fjgk"},{"id":235235,"name":"vo8io"}],"status":"available"}
+200
+{'Date': 'Fri, 23 Aug 2024 06:25:56 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Find pet by id {"code":1,"type":"error","message":"Pet not found"}
+404
+{'Date': 'Fri, 23 Aug 2024 06:25:56 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
